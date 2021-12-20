@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('../src/assets/img/MitodelacavernadePlaton.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
