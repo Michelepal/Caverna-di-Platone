@@ -3,5 +3,8 @@ header {
     color: bisque;
     width: 100%;
 }
- 
+
+li {
+    margin-right: 50px;
+}
 
