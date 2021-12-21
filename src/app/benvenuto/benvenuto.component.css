@@ -6,3 +6,9 @@
     margin-top: 10px;
     border: 2px solid grey;
 }
+
+@media screen and (max-width: 991px) {
+    #bloccocitazione {
+        width: 70%;
+    }
+}
