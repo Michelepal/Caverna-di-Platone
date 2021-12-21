@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MyheaderComponent } from './myheader/myheader.component';
 import { TitoloComponent } from './titolo/titolo.component';
 import { NavigazioneComponent } from './navigazione/navigazione.component';
+import { PiedipaginaComponent } from './piedipagina/piedipagina.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { NavigazioneComponent } from './navigazione/navigazione.component';
     MyheaderComponent,
     TitoloComponent,
     NavigazioneComponent,
+    PiedipaginaComponent,
     
     
   ],
