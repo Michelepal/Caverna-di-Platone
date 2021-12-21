@@ -2,8 +2,13 @@ header {
     background-color: rgb(6, 128, 32);
     color: bisque;
     font-size: small;
-    opacity: 0.5;
+    opacity: 0.8;
     padding: 0;
+    height: 23vh;
+}
+
+div {
+    height: 30%;
 }
 
 
