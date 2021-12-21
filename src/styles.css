@@ -1,17 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url('../src/assets/img/caverna.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    min-height: 100vh; 
+    min-width: 100vw;
 }
 
-body, html {
-    
+html {
     height: 100%;
-    width: 100%;
 }
+
+

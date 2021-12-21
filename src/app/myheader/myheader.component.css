@@ -1,21 +1,12 @@
 header {
     background-color: rgb(6, 128, 32);
     color: bisque;
-    min-width: fit-content;
     font-size: small;
     opacity: 0.5;
+    padding: 0;
 }
 
 
-li {
-    padding: 0 50px 0 50px;
-    font-size: medium;
-}
 
-li a {
-    color:rgb(236, 255, 127)
-}
 
-#plato {
-    height: 5rem;
-}
+

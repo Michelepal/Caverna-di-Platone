@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyheaderComponent implements OnInit {
 
-  logo = 'assets/img/plato.jpg';
 
   constructor() { }
 
