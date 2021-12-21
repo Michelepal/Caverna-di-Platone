@@ -1,9 +1,19 @@
 #bloccocitazione {
-    background:rgba(70,100,20,0.4);
     color: bisque;
     width: 40%;
-    margin: 0 auto;
     margin-top: 10px;
+}
+
+#titolo {
+    
+    text-align: center;
+    font-size: large;
+}
+
+#bloccocitazione, #titolo {
+    background:rgba(70,100,20,0.4);
+    margin: 0 auto;
+    color: bisque;
     border: 2px solid grey;
 }
 

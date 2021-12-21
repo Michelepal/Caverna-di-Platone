@@ -13,6 +13,7 @@ body {
     background-attachment: fixed; 
     min-height: 100vh; 
     min-width: 100vw;
+    margin-bottom: 30px;
 }
 
 html {
