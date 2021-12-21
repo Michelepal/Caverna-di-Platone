@@ -7,6 +7,7 @@ import { MyheaderComponent } from './myheader/myheader.component';
 import { TitoloComponent } from './titolo/titolo.component';
 import { NavigazioneComponent } from './navigazione/navigazione.component';
 import { PiedipaginaComponent } from './piedipagina/piedipagina.component';
+import { BenvenutoComponent } from './benvenuto/benvenuto.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { PiedipaginaComponent } from './piedipagina/piedipagina.component';
     TitoloComponent,
     NavigazioneComponent,
     PiedipaginaComponent,
+    BenvenutoComponent,
     
     
   ],
