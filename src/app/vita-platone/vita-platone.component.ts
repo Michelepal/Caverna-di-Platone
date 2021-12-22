@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vita-platone.component.css']
 })
 export class VitaPlatoneComponent implements OnInit {
+ 
+  vita:number = 0;
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit(): void {
+
+    
+
   }
 
 }

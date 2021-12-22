@@ -1,5 +1,5 @@
 <main>
-    <div class="container-fluid mt-3">
+    <div class="container mt-3 d-flex justify-content-baseline">
         <div class="container float-start mx-5 text-center" id="bloccodate">
 
             <button type="button" id="bottoneNascita" class="btn btn-large">Nascita e origini</button>
@@ -9,6 +9,16 @@
             <button type="button" id="bottoneNascita" class="btn btn-large">Secondo viaggio in Sicilia</button>
             <button type="button" id="bottoneNascita" class="btn btn-large">Terzo viaggio in Sicilia</button>
             <button type="button" id="bottoneNascita" class="btn btn-large">Ultimo periodo</button>
+        </div>
+        <div class="container">
+            <h3 *ngIf="vita == 0">Scegli quale parte vuoi approfondire</h3>
+            <app-vita1 *ngIf="vita == 1"></app-vita1>
+            <app-vita2 *ngIf="vita == 2"></app-vita2>
+            <app-vita3 *ngIf="vita == 3"></app-vita3>
+            <app-vita4 *ngIf="vita == 4"></app-vita4>
+            <app-vita5 *ngIf="vita == 5"></app-vita5>
+            <app-vita6 *ngIf="vita == 6"></app-vita6>
+            <app-vita7 *ngIf="vita == 7"></app-vita7>
         </div>
     </div>
 </main>
