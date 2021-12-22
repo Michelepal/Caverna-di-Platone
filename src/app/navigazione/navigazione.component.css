@@ -22,7 +22,10 @@ li {
 
         position: relative;
         top: -35px;
+    }
 
+    a {
+        font-size: 1rem;
     }
 }
 
