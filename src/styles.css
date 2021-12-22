@@ -12,7 +12,7 @@ body {
     background-position: center center;
     background-attachment: fixed; 
     min-width: 100vw;
-    min-height: 100vw;
+    min-height: 100vmin;
     margin-bottom: 50px;
 
 }
