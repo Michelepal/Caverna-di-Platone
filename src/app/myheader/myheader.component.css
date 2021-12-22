@@ -1,10 +1,11 @@
 header {
-    background-color: rgb(6, 128, 32);
+    background:rgba(70,100,20,0.4);
     color: bisque;
     font-size: small;
     opacity: 0.8;
     padding: 0;
-    height: 23vh;
+    height: fit-content;
+    border-bottom: 2px solid grey;
 }
 
 div {
