@@ -1,0 +1,22 @@
+#bloccodate {
+
+    background:rgba(70,100,20,0.4);
+    color: bisque;
+    border: 2px solid grey;
+    width: 200px;
+    height: fit-content;
+    
+}
+
+.btn {
+    margin: 10px 2px 10px 2px;
+}
+
+#bottoneNascita {
+    background-color:darkgoldenrod;
+    color: bisque;
+}
+
+.separatore {
+    height: 100px;
+}

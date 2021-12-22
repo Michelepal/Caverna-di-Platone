@@ -8,6 +8,7 @@ import { TitoloComponent } from './titolo/titolo.component';
 import { NavigazioneComponent } from './navigazione/navigazione.component';
 import { PiedipaginaComponent } from './piedipagina/piedipagina.component';
 import { BenvenutoComponent } from './benvenuto/benvenuto.component';
+import { VitaPlatoneComponent } from './vita-platone/vita-platone.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { BenvenutoComponent } from './benvenuto/benvenuto.component';
     NavigazioneComponent,
     PiedipaginaComponent,
     BenvenutoComponent,
+    VitaPlatoneComponent,
     
     
   ],
