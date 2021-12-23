@@ -1,9 +1,8 @@
 <main>
-    <div class="mt-3 d-flex justify-content-baseline">
-        <div class="row mx-0">
+    <div class="mt-3 mx-5 d-flex justify-content-baseline">
+        <div class="row">
             <div class="col-sm-12 col-md-3">
                 <div class="float-md-start mx-md-3 mx-sm-0 text-center d-flex flex-md-column p-2" id="bloccodate">
-
                     <button type="button" id="bottoneNascita" class="btn btn-large" (click)="scelta(1)">Nascita e origini</button>
                     <button type="button" id="bottoneNascita" class="btn btn-large" (click)="scelta(2)">Incontro con Socrate</button>
                     <button type="button" id="bottoneNascita" class="btn btn-large" (click)="scelta(3)">Primo viaggio in Sicilia</button>
@@ -14,7 +13,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-9">
-                <div class="px-lg-1 py-1 mr-lg-4 d-flex justify-content-md-stretch" id="contenitore">
+                <div class="px-lg-1 py-1 mr-lg-4 d-flex" id="contenitore">
                     <h3 class="text-center" *ngIf="vita == 0">Scegli quale parte vuoi approfondire</h3>
                     <app-vita1 *ngIf="vita == 1"></app-vita1>
                     <app-vita2 *ngIf="vita == 2"></app-vita2>

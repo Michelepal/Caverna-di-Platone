@@ -11,10 +11,13 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; 
-    min-width: 100vw;
-    min-height: 100vmin;
-    margin-bottom: 50px;
 
+}
+
+html, body {
+    display: table;
+    min-height: 100vh;
+    margin-bottom: 50px;
 }
 
 
