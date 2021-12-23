@@ -21,10 +21,7 @@
 h3 {
     color: bisque;
 }
-/* 
-#contenitore {
-    margin-right: 5vw;
-} */
+
 
 @media screen and (max-width: 758px) {
 
@@ -36,7 +33,7 @@ h3 {
 
     #contenitore {
 
-        width: 100vw;
+        width: 100%;
         
     }
     
