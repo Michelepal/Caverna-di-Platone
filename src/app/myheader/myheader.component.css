@@ -1,16 +1,9 @@
 header {
     background:rgba(70,100,20,0.4);
     color: bisque;
-    font-size: small;
-    
-    padding: 0;
-    height: fit-content;
     border-bottom: 2px solid grey;
 }
 
-div {
-    height: 30%;
-}
 
 
 
