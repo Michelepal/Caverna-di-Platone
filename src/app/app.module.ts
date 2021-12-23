@@ -16,6 +16,7 @@ import { Vita4Component } from './vita4/vita4.component';
 import { Vita5Component } from './vita5/vita5.component';
 import { Vita6Component } from './vita6/vita6.component';
 import { Vita7Component } from './vita7/vita7.component';
+import { OpereComponent } from './opere/opere.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { Vita7Component } from './vita7/vita7.component';
     Vita5Component,
     Vita6Component,
     Vita7Component,
+    OpereComponent,
     
     
   ],
