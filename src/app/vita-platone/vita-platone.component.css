@@ -3,7 +3,7 @@
     background:rgba(70,100,20,0.4);
     color: bisque;
     border: 2px solid grey;
-    width: 200px;
+    width: fit-content;
     height: fit-content;
     
 }
@@ -19,4 +19,15 @@
 
 h3 {
     color: bisque;
+}
+
+@media screen and (max-width: 758px) {
+
+    #bloccodate {
+       
+       padding-bottom: 2px;
+       margin-bottom: 2px;
+       margin: 0 auto;
+    }
+    
 }
