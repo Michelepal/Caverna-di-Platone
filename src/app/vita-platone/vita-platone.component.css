@@ -5,6 +5,7 @@
     border: 2px solid grey;
     width: fit-content;
     height: fit-content;
+    margin: 2px 5px 0 10px;
     
 }
 
@@ -20,14 +21,23 @@
 h3 {
     color: bisque;
 }
+/* 
+#contenitore {
+    margin-right: 5vw;
+} */
 
 @media screen and (max-width: 758px) {
 
     #bloccodate {
-       min-width: fit-content;
+       min-width: 100vw;
        padding-bottom: 2px;
-       margin: 2px 2px 5px 2px;
        
+    }
+
+    #contenitore {
+
+        width: 100vw;
+        
     }
     
 }
