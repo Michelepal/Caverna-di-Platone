@@ -5,7 +5,7 @@ import { VitaPlatoneComponent } from './vita-platone/vita-platone.component';
 
 const routes: Routes = [
 
-  { path: '.', component: BenvenutoComponent },
+  { path: '', component: BenvenutoComponent },
   { path: 'benvenuto', component: BenvenutoComponent },
   { path: 'vitaPlatone', component: VitaPlatoneComponent}
 
