@@ -1,3 +1,9 @@
 h2 {
     color: bisque;
 }
+
+.opere {
+    background:rgba(70,100,20,0.4);
+    color: bisque;
+    border: 2px solid grey;
+}
