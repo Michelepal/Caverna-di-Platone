@@ -1,5 +1,4 @@
 #bloccocitazione {
-    width: 40%;
     margin-top: 10px;
 }
 
@@ -14,8 +13,3 @@
 
 }
 
-@media screen and (max-width: 992px) {
-    #bloccocitazione {
-        width: 70%;
-    }
-}
