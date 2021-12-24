@@ -1,6 +1,5 @@
 a {
-    font-size: 1.2rem;
-    color: bisque;
+    font-size: 1.5rem;
 }
 
 li {
@@ -8,7 +7,7 @@ li {
 }
 
 
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
 
     #menu {
         position: relative;
@@ -17,15 +16,19 @@ li {
     }    
 }
 
-@media screen and (min-width: 768px) and ( max-width: 990px) {
+@media screen and (min-width: 769px) {
     #menu {
 
         position: relative;
         top: -35px;
     }
 
-    a {
-        font-size: 1rem;
+
+}
+@media screen and (max-width: 567) {
+
+    #menu {
+        position: static;
     }
 }
 
