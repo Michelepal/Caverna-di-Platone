@@ -1,8 +1,5 @@
 #bloccodate {
 
-    background:rgba(70,100,20,0.4);
-    color: bisque;
-    border: 2px solid grey;  
     height: fit-content;
     width: fit-content;
     margin: 2px 5px 0 5px;
@@ -16,12 +13,8 @@
 
 #bottoneNascita {
     background-color:darkgoldenrod;
-    color: bisque;
 }
 
-h3 {
-    color: bisque;
-}
 
 
 @media screen and (max-width: 758px) {

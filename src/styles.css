@@ -13,6 +13,7 @@ body {
     background-attachment: fixed; 
     margin-bottom: 10vh;
     overflow: auto;
+    color: bisque;
     
 
 }
@@ -22,6 +23,12 @@ html, body {
     min-height: 100vh;
     width: 100%;
     min-width: fit-content;
+}
+
+.box {
+    background:rgba(70,100,20,0.4);
+    color: bisque;
+    border: 2px solid grey;
 }
 
     

@@ -1,5 +1,4 @@
 #bloccocitazione {
-    color: bisque;
     width: 40%;
     margin-top: 10px;
 }
@@ -11,10 +10,8 @@
 }
 
 #bloccocitazione, #titolo {
-    background:rgba(70,100,20,0.4);
     margin: 0 auto;
-    color: bisque;
-    border: 2px solid grey;
+
 }
 
 @media screen and (max-width: 992px) {
