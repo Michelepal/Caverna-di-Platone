@@ -11,14 +11,19 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; 
+    margin-bottom: 50px;
 
 }
 
 html, body {
     
     min-height: 100vh;
-    margin-bottom: 50px;
+    width: fit-content;
+    min-width: 100%;
+    
 }
+
+    
 
 
 
