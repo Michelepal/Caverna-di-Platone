@@ -19,6 +19,7 @@ import { Vita7Component } from './vita7/vita7.component';
 import { OpereComponent } from './opere/opere.component';
 import { PensieroComponent } from './pensiero/pensiero.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +37,8 @@ import { PensieroComponent } from './pensiero/pensiero.component';
     Vita6Component,
     Vita7Component,
     OpereComponent,
-    PensieroComponent,
+    PensieroComponent
+   
     
     
   ],
