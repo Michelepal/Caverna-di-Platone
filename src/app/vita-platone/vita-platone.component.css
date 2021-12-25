@@ -8,34 +8,39 @@
 }
 
 .btn {
-    font-size: 90%;
     margin: 10px 2px 10px 2px;
 }
 
-#bottoneNascita {
+.bottoneVita {
     background-color:darkgoldenrod;
     width: 80%;
 }
 
 
 
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 768px) {
 
     #bloccodate {
-      
+       
        padding-bottom: 2px;
        
     }
 
     #contenitore {
 
-        width: 100vw;
+        max-width: fit-content;
         
     }
 
     .btn {
+       
         margin: 1px 2px 1px 2px;
     }
+
+    .bottoneVita {
+        max-width: fit-content;
+    }
     
+
     
 }
