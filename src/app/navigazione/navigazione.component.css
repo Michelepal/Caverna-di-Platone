@@ -7,11 +7,20 @@ li {
 }
 
 
+@media screen and (min-width: 990) {
+
+    #menu {
+    position: absolute;
+    top: 30px;
+}
+
+}
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
     #menu {
         position: relative;
-        top: -30px;
+        top: -19px;
         left: 0;
     }    
 }
@@ -20,7 +29,7 @@ li {
     #menu {
 
         position: relative;
-        top: -35px;
+        top: -25px;
     }
 
 
