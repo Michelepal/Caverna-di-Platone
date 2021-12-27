@@ -3,7 +3,7 @@
         <div class="row mx-2 justify-lg-content-baseline pt-1">
             <div class="container col-sm-12 col-md-3 p-0 clearfix">
                 <div class="box float-md-start mt-0 py-sm-1 text-center" id="bloccodate">
-                    <div class="row col-lg justify-content-center">
+                    <div class="row col-md justify-content-around">
 
                         <button type="button" class="btn btn-large bottoneVita" (click)="scelta(1)">Nascita e origini</button>
 
@@ -24,7 +24,7 @@
             </div>
             <div class="container col-sm-12 col-md-9 p-0">
                 <div class="mx-auto p-lg-0" id="contenitore">
-                    <div *ngIf="vita == 0" class="text-center p-0"><h3>Scegli quale parte vuoi approfondire</h3></div>
+                    <div *ngIf="vita == 0" class="text-center p-0 mt-md 2"><h3>Scegli quale parte vuoi approfondire</h3></div>
                     <app-vita1 *ngIf="vita == 1"></app-vita1>
                     <app-vita2 *ngIf="vita == 2"></app-vita2>
                     <app-vita3 *ngIf="vita == 3"></app-vita3>
