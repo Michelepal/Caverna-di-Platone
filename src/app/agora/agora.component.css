@@ -1,5 +1,38 @@
+.btn {
+    background-color: darkgoldenrod;
+    color: bisque;
 
+}
 
-.posts, .comments {
-    overflow: scroll;
+.posts,
+.comments {
+    
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: darkgoldenrod; 
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(194, 169, 107);
+  }
+
+.posts {
+    height: 500px;
+}
+
+.comments {
+
+    height: 250px;
 }
