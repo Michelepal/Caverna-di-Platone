@@ -1,7 +1,8 @@
 <main>
-    <div class="agora">
-        <div class="row mx-2">
-            <section class="col-md-7 col-sm-12 box p-0 h-md-100">
+    <div class="agora container-fluid text-center">
+        <div class="row gx-3">
+            <div class="col-sm-12 col-md-7 box">
+                <h3>I tuoi post:</h3>
                 <ul class="list-group">
                     <li class="list-group-item">Cras justo odio</li>
                     <li class="list-group-item">Dapibus ac facilisis in</li>
@@ -14,10 +15,11 @@
                     <li class="list-group-item">Porta ac consectetur ac</li>
                     <li class="list-group-item">Vestibulum at eros</li>
                 </ul>
-            </section>
-            <section class="col-md-5 col-sm-12 box p-0">
+            </div>
+            <div class="col-sm-12 col-md-5 box">
                 <div class="row">
-                    <div class="col-12 h-md-50">
+                    <div class="col-12">
+                        <h3>I commenti:</h3>
                         <ul class="list-group">
                             <li class="list-group-item">Cras justo odio</li>
                             <li class="list-group-item">Dapibus ac facilisis in</li>
@@ -26,21 +28,24 @@
                             <li class="list-group-item">Vestibulum at eros</li>
                         </ul>
                     </div>
-                    <div class="col-12 h-md-50">
+                    <div class="col-12">
                         <form class="p-2">
                             <div class="form-group">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                <label for="mail"><h4>Inserisci la tua mail</h4></label>
+                                <input type="email" class="form-control" id="mail" placeholder="name@example.com">
                                 <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Example textarea</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <label for="commento"><h4>Cosa ne pensi?</h4></label>
+                                    <textarea class="form-control" id="commento" rows="3"></textarea>
                                 </div>
                             </div>
-                            <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+                            <div class="d-grid gap-2 mt-2">
+                                <button class="btn btn-primary" type="button">Commenta!</button>
+                            </div>
                         </form>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     </div>
 </main>
+  
