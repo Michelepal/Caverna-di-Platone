@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { PostblogService } from '../services/postblog.service';
+import {IPost} from '../interfaces/ipost';
+import {Posts} from '../classes/posts';
 
 @Component({
   selector: 'app-agora',
@@ -7,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AgoraComponent implements OnInit {
 
-  constructor() { }
+  listapost: Posts[] = [];
+
+  constructor(private service: PostblogService) { }
 
   ngOnInit(): void {
+
+    this.service.getAllPosts().subscribe(res => this.listapost = res);
   }
 
 }
