@@ -11,7 +11,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 20px;
 }
 
 ::-webkit-scrollbar-track {
@@ -29,7 +29,9 @@
   }
 
 .posts {
-    max-height: 80vh;
+    max-height: 70vh;
+    max-width: fit-content;
+    border: 2px solid grey;
 }
 
 .comments {
