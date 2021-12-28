@@ -39,7 +39,8 @@ import { AgoraComponent } from './agora/agora.component';
     Vita7Component,
     OpereComponent,
     PensieroComponent,
-    AgoraComponent
+    AgoraComponent,
+    
    
     
     
