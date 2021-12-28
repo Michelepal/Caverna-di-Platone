@@ -4,9 +4,10 @@
 
 }
 
+
 .posts,
 .comments {
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -28,7 +29,7 @@
   }
 
 .posts {
-    height: 500px;
+    max-height: 80vh;
 }
 
 .comments {
