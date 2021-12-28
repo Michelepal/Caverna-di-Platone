@@ -1,10 +1,10 @@
 <main>
     <div class="agora container-fluid text-center my-2 px-0">
         <div class="row m-0">
-            <div class="col-sm-12 col-md-7 my-auto ml-0 pl-0" id="contenitorepost">
+            <div class="col-sm-12 col-md-7 ml-0 pl-0" id="contenitorepost">
                 <h3 class="box">I tuoi post:</h3>
-                <div class="posts d-flex flex-column justify-content-center">
-                <ul class="list-group" *ngFor="let item of listapost">
+                <div class=" posts d-flex flex-column">
+                <ul class="list-group  " *ngFor="let item of listapost">
                     <li class="list-group-item box text-justify my-2">
                         <h4>{{item.title}}</h4>
                         <p>{{item.body}}</p>
