@@ -1,1 +1,18 @@
-<p>creapost works!</p>
+<main>
+    <div class="container box mx-auto my-3">
+        <div class="container mx-auto">
+            <form class="text-center py-3 d-flex flex-column">
+                <h2>Crea il tuo bellissimo post!</h2>
+                <label for="titolopost">Titolo del post:</label>
+                <input type="text" value="{{nuovopost.title}}" name="titolopost" id="titolo">
+                <label for="testopost">Scrivi cosa pensi:</label>
+                <input type="textarea" value="{{nuovopost.body}}" id="testopost">
+                <div class="d-grid gap-2 my-3">
+                    <button class="btn" type="button" (click)="creaPost(nuovopost)">
+                        <b>Crea un nuovo post!</b>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>

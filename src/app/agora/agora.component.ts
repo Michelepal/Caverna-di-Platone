@@ -23,7 +23,7 @@ export class AgoraComponent implements OnInit {
     this.service.getAllPosts().subscribe(res => this.listapost = res);
   }
 
-  cancellaPost(id: number) {
+  cancellaPost(id: number): void {
 
     this.service.deletePost(id).subscribe(res => {
       
@@ -32,11 +32,13 @@ export class AgoraComponent implements OnInit {
         this.router.navigate(['agora']);
     }); 
   });
-    
-    /* this.router.navigateByUrl('/agora', { skipLocationChange: true }).then(() => {
-      this.router.navigate(['agora']);
-  }); */ 
-    
   }
+  
+  apriCreaPost(): void {
+
+    this.router.navigateByUrl('/creapost');
+  }
+        
+  
 
 }
