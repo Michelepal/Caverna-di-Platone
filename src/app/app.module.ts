@@ -20,6 +20,7 @@ import { Vita7Component } from './vita7/vita7.component';
 import { OpereComponent } from './opere/opere.component';
 import { PensieroComponent } from './pensiero/pensiero.component';
 import { AgoraComponent } from './agora/agora.component';
+import { CreapostComponent } from './creapost/creapost.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { AgoraComponent } from './agora/agora.component';
     Vita7Component,
     OpereComponent,
     PensieroComponent,
-    AgoraComponent
+    AgoraComponent,
+    CreapostComponent
    
     
    

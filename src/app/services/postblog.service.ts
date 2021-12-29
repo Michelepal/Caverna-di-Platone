@@ -21,4 +21,9 @@ export class PostblogService {
 
   }
 
+  deletePost(id: number): Observable<IPost[]> {
+    
+    return this.http.delete<IPost[]>(this.urlApi + '/posts/' + id);
+  }
+
 }

@@ -2,6 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { PostblogService } from '../services/postblog.service';
 import {IPost} from '../interfaces/ipost';
 import {Posts} from '../classes/posts';
+import { Router } from '@angular/router';
+
+
 
 @Component({
   selector: 'app-agora',
@@ -11,12 +14,29 @@ import {Posts} from '../classes/posts';
 export class AgoraComponent implements OnInit {
 
   listapost: Posts[] = [];
+  postdacancellare: Posts[] = [];
 
-  constructor(private service: PostblogService) { }
+  constructor(private service: PostblogService, private router: Router) { }
 
   ngOnInit(): void {
 
     this.service.getAllPosts().subscribe(res => this.listapost = res);
+  }
+
+  cancellaPost(id: number) {
+
+    this.service.deletePost(id).subscribe(res => {
+      
+      this.postdacancellare = res; 
+      this.router.navigateByUrl('/agora', { skipLocationChange: true }).then(() => {
+        this.router.navigate(['agora']);
+    }); 
+  });
+    
+    /* this.router.navigateByUrl('/agora', { skipLocationChange: true }).then(() => {
+      this.router.navigate(['agora']);
+  }); */ 
+    
   }
 
 }
