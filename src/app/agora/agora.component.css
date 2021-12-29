@@ -9,12 +9,12 @@
 }
 
 ::-webkit-scrollbar-track {
-    
+
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: darkgoldenrod; 
+    background-color: darkgoldenrod;
     border-radius: 4px;
   }
 
@@ -31,7 +31,7 @@
 .comments {
 
     height: 40vh;
-    
+
 }
 
 @media screen and (min-width: 991px) {
@@ -39,4 +39,3 @@
         width: 80vw;
     }
 }
-
