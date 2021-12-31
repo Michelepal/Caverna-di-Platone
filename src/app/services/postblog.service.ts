@@ -38,7 +38,7 @@ export class PostblogService {
   }
 
   newComment(id: number, comment: Comment): Observable<Comment> {
-    return this.http.post<Comment>(this.urlApi + '/comments', comment);
+    return this.http.post<Comment>(this.urlApi + `/comments/postId=${id}`, comment);
   }
 
 
