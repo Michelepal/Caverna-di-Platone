@@ -47,5 +47,4 @@ export class AgoraComponent implements OnInit {
     this.service.getCommentById(id).subscribe(res => this.listacommenti = res);
   }
 
-
 }

@@ -28,16 +28,15 @@
           <div class="col-12">
             <div class="comments">
               <ul class="list-group">
-                <li class="list-group-item box">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Morbi leo risus</li>
-                <li class="list-group-item">Porta ac consectetur ac</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Morbi leo risus</li>
-                <li class="list-group-item">Porta ac consectetur ac</li>
-                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item box" *ngFor="let item of listacommenti">
+                  <p>
+                    {{item.title}}
+                  </p>
+                  <p>
+                    {{item.body}}
+                  </p>
+                  <small>Scritto da: {{item.name}}</small>
+                </li>
               </ul>
             </div>
           </div>
