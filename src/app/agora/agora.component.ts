@@ -57,7 +57,7 @@ export class AgoraComponent implements OnInit {
   }
 
   rispondi() {
-    this.service.newComment(postId, this.nuovocommento).subscribe(res => this.nuovocommento = res);
+    this.service.newComment(this.nuovocommento.postId, this.nuovocommento).subscribe(res => this.nuovocommento = res);
 
   }
 
