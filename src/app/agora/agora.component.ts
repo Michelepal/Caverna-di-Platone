@@ -3,6 +3,7 @@ import { PostblogService } from '../services/postblog.service';
 import {IPost} from '../interfaces/ipost';
 import {IComment} from '../interfaces/comment';
 import {Posts} from '../classes/posts';
+import {Comment} from '../classes/comment';
 import { Router } from '@angular/router';
 
 

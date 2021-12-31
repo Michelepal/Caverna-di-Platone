@@ -7,7 +7,7 @@ export class Comment {
       body: string;
 
       constructor(postId: number, id: number, name: string, title:string, body:string) {
-      this.userId = userId;
+      this.postId = postId;
       this.id = id;
       this.name = name;
       this.title = title;
