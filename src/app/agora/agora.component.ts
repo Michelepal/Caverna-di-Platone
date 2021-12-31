@@ -50,9 +50,9 @@ export class AgoraComponent implements OnInit {
     this.service.getCommentById(id).subscribe(res => this.listacommenti = res);
   }
 
-  aggiungiCommento(postId: number) {
+  aggiungiCommento() {
     this.commenta = true;
-    return postId;
+    
 
   }
 
