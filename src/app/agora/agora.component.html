@@ -45,16 +45,16 @@
                 <label for="nome">
                   <h4>Come ti chiami?</h4>
                 </label>
-                <input type="nome" class="form-control" id="nome" [(ngModel)]="nuovocommento.name">
+                <input type="nome" name="nome" class="form-control" id="nome" [(ngModel)]="nuovocommento.name">
                 <label for="mail">
                   <h4>Inserisci la tua mail</h4>
                 </label>
-                <input type="email" class="form-control" id="mail" placeholder="name@example.com" [(ngModel)]="nuovocommento.email">
+                <input type="email" name="email" class="form-control" id="mail" placeholder="name@example.com" [(ngModel)]="nuovocommento.email" [ngModelOptions]="{standalone: true}">
                 <div class="form-group">
                   <label for="commento">
                     <h4>Cosa ne pensi?</h4>
                   </label>
-                  <textarea class="form-control" id="commento" rows="3" [(ngModel)]="nuovocommento.body"></textarea>
+                  <textarea class="form-control" name="commento" id="commento" rows="3" [(ngModel)]="nuovocommento.body" [ngModelOptions]="{standalone: true}"></textarea>
                 </div>
               </div>
               <div class="d-grid gap-2 my-3">
