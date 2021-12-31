@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {IPost} from '../interfaces/ipost';
-import {Comment} from '../interfaces/comment';
+import {IComment} from '../interfaces/comment';
 
 import {HttpClient, HttpClientModule} from '@angular/common/http'
 import { Observable } from 'rxjs';
@@ -33,8 +33,8 @@ export class PostblogService {
     return this.http.post<Posts>(this.urlApi + '/posts', post);
   }
 
-  getCommentById(id: number): Observable<Comment[]> {
-    return this.http.get<Comment[]>(this.urlApi + `${id}/posts`)
+  getCommentById(id: number): Observable<IComment[]> {
+    return this.http.get<IComment[]>(this.urlApi + `${id}/posts`)
   }
 
 
