@@ -52,6 +52,7 @@ export class AgoraComponent implements OnInit {
 
   aggiungiCommento(id: number) {
     this.commenta = true;
+    
   }
 
 }
