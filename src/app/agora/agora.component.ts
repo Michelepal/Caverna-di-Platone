@@ -20,7 +20,7 @@ export class AgoraComponent implements OnInit {
   listacommenti: Comment[] = [];
   nuovocommento: any = [];
   commenta = false;
-
+  idcommento!: number;
 
   constructor(private service: PostblogService, private router: Router) { }
 
@@ -50,14 +50,15 @@ export class AgoraComponent implements OnInit {
     this.service.getCommentById(id).subscribe(res => this.listacommenti = res);
   }
 
-  aggiungiCommento() {
+  aggiungiCommento(id: number) {
     this.commenta = true;
+    this.idcommento = id;
+    return 
     
-
   }
 
   rispondi() {
-    this.service.newComment(this.nuovocommento.postId, this.nuovocommento).subscribe(res => this.nuovocommento = res);
+    this.service.newComment(this.idcommento, this.nuovocommento).subscribe(res => this.nuovocommento = res);
 
   }
 

@@ -34,7 +34,7 @@
                   </p>
                   <small>Scritto da: {{item.name}}</small>
                   <br>
-                  <button type="button" name="button" class="btn btn-sm" (click)="aggiungiCommento()">Rispondi</button>
+                  <button type="button" name="button" class="btn btn-sm" (click)="aggiungiCommento(item.postId)">Rispondi</button>
                 </li>
               </ul>
             </div>
@@ -58,7 +58,7 @@
                 </div>
               </div>
               <div class="d-grid gap-2 my-3">
-                <button class="btn" type="button" (click)="rispondi()"><b>Commenta!</b></button>
+                <button class="btn" type="button" (click)="rispondi()" id="nuovocommentobottone"><b>Commenta!</b></button>
               </div>
             </form>
           </div>
