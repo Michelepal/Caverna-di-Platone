@@ -34,7 +34,7 @@ export class PostblogService {
   }
 
   getCommentById(id: number): Observable<Comment[]> {
-    return this.http.get<Comment[]>(this.urlApi + `${id}/posts`)
+    return this.http.get<Comment[]>(this.urlApi + `/posts/${id}/comments`)
   }
 
 
