@@ -18,7 +18,7 @@ export class AgoraComponent implements OnInit {
   listapost: Posts[] = [];
   postdacancellare: Posts[] = [];
   listacommenti: Comment[] = [];
-  nuovocommento: Comment[] = [];
+  nuovocommento: any = [];
   commenta = false;
 
 
