@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PostblogService } from '../services/postblog.service';
 import {IPost} from '../interfaces/ipost';
-import {Comment} from '../interfaces/comment';
+import {IComment} from '../interfaces/comment';
 import {Posts} from '../classes/posts';
 import { Router } from '@angular/router';
 
@@ -44,7 +44,7 @@ export class AgoraComponent implements OnInit {
 
   leggiCommenti(id: number): void {
 
-    this.service.getCommentById(id).subscribe(res => listacommenti = res);
+    this.service.getCommentById(id).subscribe(res => this.listacommenti = res);
   }
 
 

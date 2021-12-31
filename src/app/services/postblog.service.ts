@@ -33,8 +33,8 @@ export class PostblogService {
     return this.http.post<Posts>(this.urlApi + '/posts', post);
   }
 
-  getCommentById(id: number): Observable<IComment[]> {
-    return this.http.get<IComment[]>(this.urlApi + `${id}/posts`)
+  getCommentById(id: number): Observable<Comment[]> {
+    return this.http.get<Comment[]>(this.urlApi + `${id}/posts`)
   }
 
 
