@@ -44,7 +44,7 @@ export class AgoraComponent implements OnInit {
 
   leggiCommenti(id: number): void {
 
-    this.service.getAllPosts(id).subscribe(res => listacommenti = res);
+    this.service.getCommentById(id).subscribe(res => listacommenti = res);
   }
 
 
