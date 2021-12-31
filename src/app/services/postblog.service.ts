@@ -11,7 +11,7 @@ export class PostblogService {
 
   urlApi: string = 'https://jsonplaceholder.typicode.com';
 
-  constructor( private http: HttpClient) { 
+  constructor( private http: HttpClient) {
 
 
   }
@@ -23,12 +23,17 @@ export class PostblogService {
   }
 
   deletePost(id: number): Observable<IPost[]> {
-    
+
     return this.http.delete<IPost[]>(this.urlApi + '/posts/' + id);
   }
 
   createPost(post: Posts): Observable<Posts> {
     return this.http.post<Posts>(this.urlApi + '/posts', post);
   }
+
+  getCommentById(id: number): Observable<IPost[]> {
+    return this.http.get<IPost[]>(this.urlApi + `${id}/posts`)
+  }
+  
 
 }
