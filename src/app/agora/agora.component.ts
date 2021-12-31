@@ -18,6 +18,7 @@ export class AgoraComponent implements OnInit {
   listapost: Posts[] = [];
   postdacancellare: Posts[] = [];
   listacommenti: any = [];
+  commenta = false;
 
 
   constructor(private service: PostblogService, private router: Router) { }
@@ -46,6 +47,10 @@ export class AgoraComponent implements OnInit {
   leggiCommenti(id: number): void {
 
     this.service.getCommentById(id).subscribe(res => this.listacommenti = res);
+  }
+
+  aggiungiCommento(id: number) {
+    this.commenta = true;
   }
 
 }
