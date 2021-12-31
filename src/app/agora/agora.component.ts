@@ -5,6 +5,7 @@ import {IComment} from '../interfaces/comment';
 import {Posts} from '../classes/posts';
 import {Comment} from '../classes/comment';
 import { Router } from '@angular/router';
+import { ThrowStmt } from '@angular/compiler';
 
 
 
@@ -58,7 +59,11 @@ export class AgoraComponent implements OnInit {
   }
 
   rispondi() {
-    this.service.newComment(this.idcommento, this.nuovocommento).subscribe(res => console.log(res));
+    this.service.newComment(this.nuovocommento).subscribe(res => {
+
+     this.nuovocommento=res;
+
+    });
 
   }
 
