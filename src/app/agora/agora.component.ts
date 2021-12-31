@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PostblogService } from '../services/postblog.service';
 import {IPost} from '../interfaces/ipost';
+import {Comment} from '../interfaces/comment';
 import {Posts} from '../classes/posts';
 import { Router } from '@angular/router';
 
@@ -16,6 +17,7 @@ export class AgoraComponent implements OnInit {
   listapost: Posts[] = [];
   postdacancellare: Posts[] = [];
 
+
   constructor(private service: PostblogService, private router: Router) { }
 
   ngOnInit(): void {
@@ -26,19 +28,19 @@ export class AgoraComponent implements OnInit {
   cancellaPost(id: number): void {
 
     this.service.deletePost(id).subscribe(res => {
-      
-      this.postdacancellare = res; 
+
+      this.postdacancellare = res;
       this.router.navigateByUrl('/agora', { skipLocationChange: true }).then(() => {
         this.router.navigate(['agora']);
-    }); 
+    });
   });
   }
-  
+
   apriCreaPost(): void {
 
     this.router.navigateByUrl('/creapost');
   }
-        
-  
+
+
 
 }
