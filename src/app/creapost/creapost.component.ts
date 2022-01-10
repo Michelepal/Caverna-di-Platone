@@ -14,13 +14,8 @@ import { Router } from '@angular/router';
 })
 export class CreapostComponent implements OnInit {
 
-  nuovopost: Posts = {
-    userId: 1,
-    id: 1,
-    title: '', 
-    body: ''
-  }
-
+  nuovopost: any = [];
+  
   constructor(private service: PostblogService, private router: Router) { }
 
   ngOnInit(): void {
