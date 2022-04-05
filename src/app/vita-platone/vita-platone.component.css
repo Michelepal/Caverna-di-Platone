@@ -14,8 +14,21 @@
 }
 
 
+@media only screen and (min-width: 767px) and (max-width: 768px) {
 
-@media screen and (max-width: 768px) {
+    .bottoneVita {
+        max-width: fit-content;
+        font-size: 12px;
+        display: inline;
+    }
+
+    /* #bloccodate {
+        
+        max-width: fit-content;
+    } */
+} 
+
+@media screen and (max-width: 766px) {
 
     #bloccodate {
        
@@ -26,11 +39,6 @@
        
     }
 
-    #contenitore {
-
-        max-width: fit-content;
-        
-    }
 
 
     .bottoneVita {
@@ -40,3 +48,5 @@
     }
         
 }
+
+

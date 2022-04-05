@@ -1,39 +1,46 @@
 <main>
-    <div class="container-fluid mt-3 px-0">
-        <div class="row mx-2 justify-lg-content-baseline pt-1">
-            <div class="container col-sm-12 col-md-3 p-0 clearfix">
-                <div class="box float-md-start mt-0 py-sm-1 text-center" id="bloccodate">
-                    <div class="row col-md justify-content-around">
+  <div class="container-fluid mt-3 px-0">
+    <div class="row mx-2 justify-lg-content-baseline pt-1">
+      <div class="container col-sm-12 col-md-3 p-0 clearfix">
+        <div class="box float-md-start mt-0 py-sm-1 text-center" id="bloccodate">
+          <div class="row">
+            <div class="col-md justify-content-around">
 
-                        <button type="button" class="btn btn-large bottoneVita" (click)="scelta(1)">Nascita e origini</button>
+              <button type="button" class="btn btn-large bottoneVita" (click)="scelta(1)">Nascita e origini</button>
 
-                        <button type="button" class="btn btn-large bottoneVita" (click)="scelta(2)">Incontro con Socrate</button>
+              <button type="button" class="btn btn-large bottoneVita" (click)="scelta(2)">Incontro con Socrate</button>
 
-                        <button type="button" class="btn btn-large bottoneVita" (click)="scelta(3)">Primo viaggio in Sicilia</button>
+              <button type="button" class="btn btn-large bottoneVita" (click)="scelta(3)">Primo viaggio in
+                Sicilia</button>
 
-                        <button type="button" class="btn btn-large bottoneVita" (click)="scelta(4)">Fondazione Accademia</button>
+              <button type="button" class="btn btn-large bottoneVita" (click)="scelta(4)">Fondazione Accademia</button>
 
 
-                        <button type="button" class="btn btn-large bottoneVita" (click)="scelta(5)">Secondo viaggio in Sicilia</button>
+              <button type="button" class="btn btn-large bottoneVita" (click)="scelta(5)">Secondo viaggio in
+                Sicilia</button>
 
-                        <button type="button" class="btn btn-large bottoneVita" (click)="scelta(6)">Terzo viaggio in Sicilia</button>
+              <button type="button" class="btn btn-large bottoneVita" (click)="scelta(6)">Terzo viaggio in
+                Sicilia</button>
 
-                        <button type="button" class="btn btn-large bottoneVita" (click)="scelta(7)">Ultimo periodo</button>
-                    </div>
-                </div>
+              <button type="button" class="btn btn-large bottoneVita" (click)="scelta(7)">Ultimo periodo</button>
             </div>
-            <div class="container col-sm-12 col-md-9 p-0">
-                <div class="mx-auto p-lg-0" id="contenitore">
-                    <div *ngIf="vita == 0" class="text-center p-0 mt-md 2"><h3>Scegli quale parte vuoi approfondire</h3></div>
-                    <app-vita1 *ngIf="vita == 1"></app-vita1>
-                    <app-vita2 *ngIf="vita == 2"></app-vita2>
-                    <app-vita3 *ngIf="vita == 3"></app-vita3>
-                    <app-vita4 *ngIf="vita == 4"></app-vita4>
-                    <app-vita5 *ngIf="vita == 5"></app-vita5>
-                    <app-vita6 *ngIf="vita == 6"></app-vita6>
-                    <app-vita7 *ngIf="vita == 7"></app-vita7>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
+      <div class="container col-sm-12 col-md-9 p-0">
+        <div class="mx-auto p-lg-0" id="contenitore">
+          <div *ngIf="vita == 0" class="text-center p-0 mt-md 2">
+            <h3>Scegli quale parte vuoi approfondire</h3>
+          </div>
+          <app-vita1 *ngIf="vita == 1"></app-vita1>
+          <app-vita2 *ngIf="vita == 2"></app-vita2>
+          <app-vita3 *ngIf="vita == 3"></app-vita3>
+          <app-vita4 *ngIf="vita == 4"></app-vita4>
+          <app-vita5 *ngIf="vita == 5"></app-vita5>
+          <app-vita6 *ngIf="vita == 6"></app-vita6>
+          <app-vita7 *ngIf="vita == 7"></app-vita7>
+        </div>
+      </div>
     </div>
+  </div>
 </main>
