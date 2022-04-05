@@ -1,3 +1,17 @@
 img {
-    height: 80px;
+    height: 100px;
+    margin-left:25px;
+}
+
+@media screen and (max-width:728px) {
+
+    img {
+
+        height: 80px;
+    }
+
+    h3, h4 {
+        font-size: 90%;
+        margin: 15px;
+    }
 }
