@@ -15,7 +15,8 @@ const routes: Routes = [
   { path: 'opere', component: OpereComponent},
   { path: 'pensiero', component: PensieroComponent},
   { path: 'agora', component: AgoraComponent},
-  { path: 'creapost', component: CreapostComponent}
+  { path: 'creapost', component: CreapostComponent},
+  { path: '**', redirectTo: ''}
 
 ];
 
