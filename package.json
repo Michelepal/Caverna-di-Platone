@@ -1,6 +1,7 @@
 {
   "name": "cavernadi-platone",
   "version": "0.0.0",
+  "homepage": "https://michelepal.github.io/Caverna-di-Platone/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
